@@ -39,7 +39,7 @@ int main()
     cout << "ans is " << indexoflastOcc << endl;
 
     auto ans2 = upper_bound(v.begin(),v.end(),target);
-    cout << "ans by Upper bound function is " << ans2-v.begin() << endl;
+    cout << "ans by Upper bound function is " << (ans2-v.begin()-1) << endl;
 
     cout << endl;
     return 0;
